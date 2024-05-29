@@ -1,0 +1,39 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  width: 70%;
+  font-family: Poppins;
+  color: #292d32;
+  font-family: Poppins;
+  font-size: 14.304px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.143px;
+  padding: 10px;
+  margin: auto;
+}
+thead > tr {
+  color: #00000099;
+  text-transform: capitalize;
+  border-bottom: 1px solid #a1999940;
+}
+
+tbody > tr,
+th {
+  font-weight: 500;
+  text-align: left;
+  font-size: 16px;
+  padding: 5px;
+}
+
+thead tr {
+  background-color: #b7ffff;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: rgb(226, 226, 225);
+}
+tbody tr:nth-of-type(even) {
+  background-color: rgb(221, 223, 219);
+}
